@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family:"Poppins";
 }
 
 body {
   /*background-color: #7C7E8F; */
   width: 100%;
+}
+body p{
+  font-family: "baloo bhai 2";
 }
 
 .logo {
@@ -61,6 +66,10 @@ header {
   background-color: #E55A2D;
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.header-left button a{
+  text-decoration: none;
+  color: white;
 }
 
 .header-right img {
@@ -202,7 +211,7 @@ header {
 
 .second .testimonal-box .testimonal {
   width: 270px;
-  height: 160px;
+  height: 180px;
   padding: 20px;
   border-radius: 16px;
   background-color: #A1A1A136;
@@ -224,17 +233,19 @@ header {
   margin-top: 70px;
   
 }
-
 .second .signup-btn button {
-  padding: 30px 160px;
-  font-size: 55px;
-  color: white;
-  background-color: #3370FFBF;
-  border: 2px solid #3370FFBF;
+  padding: 20px 20px;
+  background-color: #B35405;
+  border: 2px solid #A94D00BF;
   justify-content: center;
   text-align: center;
   min-height: 44px;
   border-radius: 9px;
+}
+.second .signup-btn button a {
+  text-decoration: none;
+  font-size: 40px;
+  color: white;
 }
 
 .nav ul {
@@ -340,11 +351,13 @@ header {
   }
 
   .second .signup-btn button {
-    padding: 20px 40px;
-    font-size: 30px;
-    min-height: 44px;
+    padding: 12px 24px;
+    font-size: 18px;
+    min-height: 40px;
   }
-
+.second .signup-btn button a {
+  font-size: 20px;
+}
   .nav ul {
     flex-direction: row;
     align-items: center;
@@ -369,8 +382,11 @@ header {
   }
 
   .second .signup-btn button {
-    font-size: 24px;
-    padding: 15px 30px;
-    min-height: 44px ;
+    font-size: 13px;
+    padding: 12px 24px;
+    min-height: 38px ;
+  }
+  .second .signup-btn button a {
+  font-size: 18px;
   }
 }
